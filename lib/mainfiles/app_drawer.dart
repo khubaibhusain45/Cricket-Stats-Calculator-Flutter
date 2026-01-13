@@ -60,12 +60,7 @@ class AppDrawer extends StatelessWidget {
             subtitle: "Calculate Economy of Bowler",
             screen: BowlerEconomyWidget(),
           ),
-          _drawerItem(
-            context,
-            url: 'assets/images/f.png',
-            title: "Give Feedback",
-            subtitle: "Give your valuable opinion",
-          ),
+        
         ],
       ),
     );

@@ -1,16 +1,60 @@
-# stats_calculator
+# Cricket Stats Calculator (Flutter)
 
-A new Flutter project.
+A cross-platform Flutter application to **calculate and visualize key cricket statistics** for players and matches. Designed for cricket enthusiasts, players, and analysts who want precise batting and bowling metrics — all from an intuitive mobile interface.
+
+This repository contains the source code for a Dart/Flutter app that computes common cricket stats such as batting average and strike rate, with plans for advanced features in future releases.
+
+---
+
+## Features
+
+- **Batting Average Calculator** – Computes batting average from runs and dismissals.  
+- **Strike Rate Calculator** – Calculates scoring efficiency (runs per 100 balls).  
+- **Bowling Metrics (Planned)** – Economy, bowling average, strike rate, etc.  
+- **Cross-Platform UI** – Flutter UI that runs on Android, iOS, Web, and Desktop.  
+- **Responsive and Fast** – Built with Flutter’s performant widget system.
+
+---
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+These instructions will get you up and running locally for development and testing.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK (3.0 or above recommended)  
+- Dart SDK (bundled with Flutter)  
+- IDE: Android Studio, VS Code, or IntelliJ IDEA  
+- Mobile device or emulator for testing
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/khubaibhusain45/Cricket-Stats-Calculator-Flutter.git
+cd Cricket-Stats-Calculator-Flutter
+Install dependencies
+```
+
+```bash
+flutter pub get
+```
+
+```bash
+flutter run
+```
+Select your target platform (Android, iOS, Web, or Desktop).
+
+## How It Works
+- The app reads user inputs for cricket performance metrics and computes standard stats.
+
+
+## Project Structure
+lib/
+ ├── main.dart          # App entry point
+ ├── screens/           # UI screens
+ ├── widgets/           # Reusable widgets
+ └── utils/             # Calculation logic
+assets/                 # Images, config files
+test/                   # Unit and widget tests
